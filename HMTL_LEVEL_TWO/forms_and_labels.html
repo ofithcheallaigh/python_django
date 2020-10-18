@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <body>
-    <form action="https://www.nytimes.com/" method="get">
+  <!--  <form action="https://www.nytimes.com/" method="get"> -->
       <!-- <p>Enter Text:</p> -->
 <!-- The thing to notice here is that when some information is submitted im the
 examples below, it shows up in the address bar -->
@@ -18,10 +18,35 @@ examples below, it shows up in the address bar -->
 
       <!-- Below will carry out an action when Submit is pressed -->
 
-        <p>Enter Text and take me to NYTimes :</p>
+        <!-- <p>Enter Text and take me to NYTimes :</p>
         <input type="text" name="userinput" value="">
         <input type="submit" name="" value="Submit">
-      </form>
+      </form> -->
+
+      <!-- <form> -->
+        <!-- Using a label with for -->
+        <!-- <label for="userinput">Enter Input:</label>
+
+        <input id = "userinput" ype="text" name="" value="Hello">
+      </form> -->
+
+<!-- One thing about using "value" in an input take is that the user
+has to delete the text which is in place. If we use a "placeholder", the
+test is removed when we click in the box and start typing-->
+
+  <!-- <form>
+    <label for="userinput">Enter Input:</label>
+
+    <input id = "userinput" type="test" name="" placeholder="Input">
+
+  </form> -->
+
+  <form>
+    <input type="text" name="" placeholder="Not required">
+    <input type="text" name="" placeholder="Required" required>
+    <input type="submit" name="" value="Submit">
+  </form>
+</thead>
 
   </body>
 </html>
